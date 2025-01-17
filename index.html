@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <title>Shopping Cart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="">
+        <section class="container-fluid" id="header">
+            <div class="" id="brand">
+                <a href="index.html"><img src="images/logo-nike.png" draggable="false" alt="logo-nike"></a>
+            </div>
+            <div class="" id="msgWelcome"></div>
+            <nav id="links" class="">
+                <ul id="btn-sign" class="">
+                    <li><a href="register.html">register</a></li>
+                    <li><a href="login.html">login</a></li>
+                </ul>
+
+                <ul id="user-info" >
+                    <li class="border">
+                        <div class="cart-product">
+                            <div class="icon-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="badge-cart">0</span>
+                            </div>
+                            <span>cart</span>
+                            <i class="fa-solid fa-sort-up" id="arrow-up"></i>
+                            <i class="fa-solid fa-sort-down" id="arrow-down"></i>
+                        </div>
+                        <div class="box-product">
+                            <div></div>
+                            <a href="cartProduct.html" id="move-cart-product-page">view all product</a>
+                        </div>
+                    </li>
+                    <li><a id="logout-btn">logout</a></li>
+                </ul>
+
+            </nav>
+
+        </section>
+    </header>
+
+    <section class="container" id="search-ipnut">
+        <select id="searchType">
+            <option value="notSelect"  hidden>Select Type Search</option>
+            <option value="Search By Name" >Search By Name</option>
+            <option value="Search By Category" >Search By Category</option>
+        </select>
+        <input type="search" placeholder="Search" id="inputSearch"  >
+    </section>
+
+    <hr>
+
+    <main>
+        <section class="container " id="products"></section>
+    </main>
+
+    <script src="js/user.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
