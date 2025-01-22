@@ -348,9 +348,9 @@ nav ul#btn-sign li a {
 /* ************************************* Cart View Product ******************************************************* */
 .seprate-dynamic{
   width: 50%;
-  height: 0.5rem;
+  height: 0.2rem;
   
-  background-color: #0d6efd;
+  background-color: red;
 
   margin: -10px auto 1rem ;
   transition: 0.5s;
